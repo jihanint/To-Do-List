@@ -1,0 +1,133 @@
+body {
+    background: #f5f2f2;
+    color: rgb(26, 24, 24);
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    }
+
+    input[type="text"] {
+    margin: 0;
+    font-size: 19px;
+    line-height: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    color: rgb(140, 20, 20);
+    }
+    
+    input[type="text"]:focus {
+    color: #333;
+    }
+
+    button {
+    background: none;
+    border: 0px;
+    color: rgb(16, 1, 43);
+    font-size: 17px;
+    width: 80px;
+    margin: 8px 0 0;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    color: rgb(157, 154, 211);
+    }
+    
+    h3,
+    label[for='todo'] {
+    color: #333;
+    font-weight: 700;
+    font-size: 17px;
+    border-top: 2px solid rgb(41, 36, 36);
+    border-bottom: 2px solid rgb(41, 36, 36);
+    border-right: 2px solid rgb(41, 36, 36);
+    border-left: 2px solid rgb(41, 36, 36);
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+    }
+    
+    .container {
+    display: block;
+    width: 500px;
+    margin: 40px auto 0;
+    }
+    
+    ul {
+    margin: 5;
+    padding: 5;
+    }
+    
+    li * {
+    float: left;
+    }
+    
+    li,
+    h3 {
+    clear: both;
+    list-style: none;
+    }
+    
+    input,
+    button {
+    outline: none;
+    }
+    
+    .middle {
+    text-align: center;
+    }
+    
+    label[for='todo'] {
+    display: block;
+    margin: 0 0 10px;
+    }
+    
+    input#todo {
+    float: left;
+    width: 360px;
+    }
+    
+    p>button:hover {
+    color: #aca2f3;
+    }
+    
+    li {
+    overflow: hidden;
+    padding: 15px 0;
+    }
+    
+    li>input[type="checkbox"] {
+    margin: 0 15px;
+    position: relative;
+    top: 15px;
+    }
+    
+    li>label {
+    font-size: 17px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 10px;
+    }
+    
+    li>input[type="text"] {
+    width: 226px;
+    }
+    
+    li>.delete:hover {
+    color: #8f0808;
+    }
+    
+    ul li input[type=text] {
+    display: none;
+    }
+    
+    ul li.editMode input[type=text] {
+    display: block;
+    }
+    
+    ul li.editMode label {
+    display: none;
+    }
